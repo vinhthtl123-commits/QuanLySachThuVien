@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
-public class bai1 {
+public class Bai1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        // Hỗ trợ hiển thị tiếng Việt trên console
         System.out.println("--- BÀI 1: Nhập và hiển thị thông tin sách ---");
 
         System.out.print("Nhập mã sách: ");
@@ -24,7 +23,6 @@ public class bai1 {
         System.out.print("Nhập số lượng: ");
         int soLuong = Integer.parseInt(scanner.nextLine());
 
-        // Hiển thị lại thông tin
         System.out.println("\n[Thông tin sách đã nhập]");
         System.out.println("- Mã sách: " + maSach);
         System.out.println("- Tên sách: " + tenSach);
